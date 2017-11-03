@@ -7,3 +7,9 @@ console.log('gato: ', gato);
 gato.desplazar();
 //Cambia el tipo del dato
 gato.ronronear();
+//cambiar los valores con set
+gato.nombre = 'Tom';
+//debe cambiar el nombre
+gato.ronronear();
+//ver nombre get
+console.log('gato.nombre: ', gato.nombre);
