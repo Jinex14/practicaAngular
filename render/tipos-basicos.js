@@ -2,3 +2,9 @@
 var numeroEstudiantes = 40;
 numeroEstudiantes = 30;
 console.log('numeroEstudiantes', numeroEstudiantes);
+var cursoIniciado = true;
+cursoIniciado = false;
+var nombreCurso = "angular desde 0";
+var contenidoCurso = "Esta es una \n                            cadena multi linea \n                            donde todo sale con saltos de\n                            linea";
+console.log("nombreCurso:", nombreCurso);
+console.log("contenidoCurso:", contenidoCurso);
