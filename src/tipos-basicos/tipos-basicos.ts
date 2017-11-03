@@ -25,3 +25,11 @@ let arregloB:Array<string>;
 arregloB=["a","b","c"];
 console.log("arregloB:",arregloB);
 
+//TypeScript enums
+enum diaCurso{Martes,Viernes};
+enum DiasSemana{Lunes,Martes,Miercoles,Jueves,Viernes,Sabado,Domingo};
+
+let primerDiaClase:diaCurso;
+primerDiaClase=diaCurso.Martes;
+
+console.log("primerDia",primerDiaClase);

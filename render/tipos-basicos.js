@@ -15,3 +15,24 @@ console.log("arregloA:", arregloA);
 var arregloB;
 arregloB = ["a", "b", "c"];
 console.log("arregloB:", arregloB);
+//TypeScript enums
+var diaCurso;
+(function (diaCurso) {
+    diaCurso[diaCurso["Martes"] = 0] = "Martes";
+    diaCurso[diaCurso["Viernes"] = 1] = "Viernes";
+})(diaCurso || (diaCurso = {}));
+;
+var DiasSemana;
+(function (DiasSemana) {
+    DiasSemana[DiasSemana["Lunes"] = 0] = "Lunes";
+    DiasSemana[DiasSemana["Martes"] = 1] = "Martes";
+    DiasSemana[DiasSemana["Miercoles"] = 2] = "Miercoles";
+    DiasSemana[DiasSemana["Jueves"] = 3] = "Jueves";
+    DiasSemana[DiasSemana["Viernes"] = 4] = "Viernes";
+    DiasSemana[DiasSemana["Sabado"] = 5] = "Sabado";
+    DiasSemana[DiasSemana["Domingo"] = 6] = "Domingo";
+})(DiasSemana || (DiasSemana = {}));
+;
+var primerDiaClase;
+primerDiaClase = diaCurso.Martes;
+console.log("primerDia", primerDiaClase);
