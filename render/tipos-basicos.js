@@ -36,3 +36,36 @@ var DiasSemana;
 var primerDiaClase;
 primerDiaClase = diaCurso.Martes;
 console.log("primerDia", primerDiaClase);
+console.log("primerDia(String)", diaCurso[diaCurso.Martes]);
+//Variable Any
+var Mivariable;
+Mivariable = 5;
+Mivariable = 'Hola';
+Mivariable = true;
+//constante
+var pi = 3.14;
+//pi=3.15; ----> esto no se puede hacer
+console.log(pi);
+//definir json
+var persona = {
+    nombre: 'Jean',
+    curso: 'Angular'
+};
+console.log(persona);
+var personaConst = {
+    nombre: 'Juan',
+    curso: 'AngularJS'
+};
+console.log(personaConst);
+personaConst.nombre = 'Eduardo';
+personaConst.curso = 'Angular2';
+console.log(personaConst);
+//funciones
+function holaMundo() {
+    return 'HolaMundo';
+}
+//no Retorna nada
+function saludar(mensaje) {
+    console.log(mensaje);
+}
+saludar("Me gusta TypeScript");
