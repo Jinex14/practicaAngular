@@ -8,3 +8,5 @@ var nombreCurso = "angular desde 0";
 var contenidoCurso = "Esta es una \n                            cadena multi linea \n                            donde todo sale con saltos de\n                            linea";
 console.log("nombreCurso:", nombreCurso);
 console.log("contenidoCurso:", contenidoCurso);
+var bienvenida = "Bienvenidos al curso " + nombreCurso;
+console.log(bienvenida);

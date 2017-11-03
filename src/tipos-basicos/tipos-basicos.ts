@@ -13,3 +13,7 @@ let contenidoCurso:string = `Esta es una
 
 console.log("nombreCurso:",nombreCurso);
 console.log("contenidoCurso:",contenidoCurso);
+
+let bienvenida:string= `Bienvenidos al curso ${nombreCurso}`;
+
+console.log(bienvenida);
