@@ -17,3 +17,11 @@ console.log("contenidoCurso:",contenidoCurso);
 let bienvenida:string= `Bienvenidos al curso ${nombreCurso}`;
 
 console.log(bienvenida);
+
+let arregloA:number[] = [1,2,3,4,5,6,7,8,9];
+console.log("arregloA:",arregloA);
+
+let arregloB:Array<string>;
+arregloB=["a","b","c"];
+console.log("arregloB:",arregloB);
+

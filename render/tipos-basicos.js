@@ -10,3 +10,8 @@ console.log("nombreCurso:", nombreCurso);
 console.log("contenidoCurso:", contenidoCurso);
 var bienvenida = "Bienvenidos al curso " + nombreCurso;
 console.log(bienvenida);
+var arregloA = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+console.log("arregloA:", arregloA);
+var arregloB;
+arregloB = ["a", "b", "c"];
+console.log("arregloB:", arregloB);
